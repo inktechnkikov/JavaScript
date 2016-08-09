@@ -5,4 +5,4 @@ let marks = [
     {subject:'PHP',scores:6.00}
 ];
 let student = {fullName:"Cvetko Cvetanov",studentMarks:marks};
-student.studentMarks[0].scores = 5.00;
+console.log(JSON.stringify(marks));
